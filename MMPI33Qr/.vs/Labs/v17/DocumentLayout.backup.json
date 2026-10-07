@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D75AE6EF-113D-4E55-857F-1980FF30A358}|MMPI33Qr\\QrLib.csproj|e:\\\u0447\u0433\u0443\\_3 \u043A\u0443\u0440\u0441\\\u0441#\\labs\\mmpi33qr\\mmpi33qr\\services\\qrcodebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75AE6EF-113D-4E55-857F-1980FF30A358}|MMPI33Qr\\QrLib.csproj|solutionrelative:mmpi33qr\\services\\qrcodebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75AE6EF-113D-4E55-857F-1980FF30A358}|MMPI33Qr\\QrLib.csproj|e:\\\u0447\u0433\u0443\\_3 \u043A\u0443\u0440\u0441\\\u0441#\\labs\\mmpi33qr\\mmpi33qr\\data\\qrcodedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75AE6EF-113D-4E55-857F-1980FF30A358}|MMPI33Qr\\QrLib.csproj|solutionrelative:mmpi33qr\\data\\qrcodedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75AE6EF-113D-4E55-857F-1980FF30A358}|MMPI33Qr\\QrLib.csproj|e:\\\u0447\u0433\u0443\\_3 \u043A\u0443\u0440\u0441\\\u0441#\\labs\\mmpi33qr\\mmpi33qr\\services\\encodingdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75AE6EF-113D-4E55-857F-1980FF30A358}|MMPI33Qr\\QrLib.csproj|solutionrelative:mmpi33qr\\services\\encodingdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75AE6EF-113D-4E55-857F-1980FF30A358}|MMPI33Qr\\QrLib.csproj|e:\\\u0447\u0433\u0443\\_3 \u043A\u0443\u0440\u0441\\\u0441#\\labs\\mmpi33qr\\mmpi33qr\\interfaces\\iqrcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75AE6EF-113D-4E55-857F-1980FF30A358}|MMPI33Qr\\QrLib.csproj|solutionrelative:mmpi33qr\\interfaces\\iqrcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75AE6EF-113D-4E55-857F-1980FF30A358}|MMPI33Qr\\QrLib.csproj|e:\\\u0447\u0433\u0443\\_3 \u043A\u0443\u0440\u0441\\\u0441#\\labs\\mmpi33qr\\mmpi33qr\\data\\pair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75AE6EF-113D-4E55-857F-1980FF30A358}|MMPI33Qr\\QrLib.csproj|solutionrelative:mmpi33qr\\data\\pair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2660F1A0-B953-475B-A77E-A34AC6033F49}|Terminal\\Terminal.csproj|e:\\\u0447\u0433\u0443\\_3 \u043A\u0443\u0440\u0441\\\u0441#\\labs\\mmpi33qr\\terminal\\labstests\\tests\\testlab1\\testlab1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2660F1A0-B953-475B-A77E-A34AC6033F49}|Terminal\\Terminal.csproj|solutionrelative:terminal\\labstests\\tests\\testlab1\\testlab1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75AE6EF-113D-4E55-857F-1980FF30A358}|MMPI33Qr\\QrLib.csproj|e:\\\u0447\u0433\u0443\\_3 \u043A\u0443\u0440\u0441\\\u0441#\\labs\\mmpi33qr\\mmpi33qr\\models\\qrcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75AE6EF-113D-4E55-857F-1980FF30A358}|MMPI33Qr\\QrLib.csproj|solutionrelative:mmpi33qr\\models\\qrcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2660F1A0-B953-475B-A77E-A34AC6033F49}|Terminal\\Terminal.csproj|e:\\\u0447\u0433\u0443\\_3 \u043A\u0443\u0440\u0441\\\u0441#\\labs\\mmpi33qr\\terminal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2660F1A0-B953-475B-A77E-A34AC6033F49}|Terminal\\Terminal.csproj|solutionrelative:terminal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75AE6EF-113D-4E55-857F-1980FF30A358}|MMPI33Qr\\QrLib.csproj|e:\\\u0447\u0433\u0443\\_3 \u043A\u0443\u0440\u0441\\\u0441#\\labs\\mmpi33qr\\mmpi33qr\\enums\\encodingmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75AE6EF-113D-4E55-857F-1980FF30A358}|MMPI33Qr\\QrLib.csproj|solutionrelative:mmpi33qr\\enums\\encodingmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2660F1A0-B953-475B-A77E-A34AC6033F49}|Terminal\\Terminal.csproj|e:\\\u0447\u0433\u0443\\_3 \u043A\u0443\u0440\u0441\\\u0441#\\labs\\mmpi33qr\\terminal\\labstests\\interfaces\\itest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2660F1A0-B953-475B-A77E-A34AC6033F49}|Terminal\\Terminal.csproj|solutionrelative:terminal\\labstests\\interfaces\\itest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2660F1A0-B953-475B-A77E-A34AC6033F49}|Terminal\\Terminal.csproj|e:\\\u0447\u0433\u0443\\_3 \u043A\u0443\u0440\u0441\\\u0441#\\labs\\mmpi33qr\\terminal\\terminal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2660F1A0-B953-475B-A77E-A34AC6033F49}|Terminal\\Terminal.csproj|solutionrelative:terminal\\terminal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75AE6EF-113D-4E55-857F-1980FF30A358}|MMPI33Qr\\QrLib.csproj|e:\\\u0447\u0433\u0443\\_3 \u043A\u0443\u0440\u0441\\\u0441#\\labs\\mmpi33qr\\mmpi33qr\\qrlib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D75AE6EF-113D-4E55-857F-1980FF30A358}|MMPI33Qr\\QrLib.csproj|solutionrelative:mmpi33qr\\qrlib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75AE6EF-113D-4E55-857F-1980FF30A358}|MMPI33Qr\\QrLib.csproj|e:\\\u0447\u0433\u0443\\_3 \u043A\u0443\u0440\u0441\\\u0441#\\labs\\mmpi33qr\\mmpi33qr\\enums\\qr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75AE6EF-113D-4E55-857F-1980FF30A358}|MMPI33Qr\\QrLib.csproj|solutionrelative:mmpi33qr\\enums\\qr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75AE6EF-113D-4E55-857F-1980FF30A358}|MMPI33Qr\\QrLib.csproj|e:\\\u0447\u0433\u0443\\_3 \u043A\u0443\u0440\u0441\\\u0441#\\labs\\mmpi33qr\\mmpi33qr\\enums\\ecclevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75AE6EF-113D-4E55-857F-1980FF30A358}|MMPI33Qr\\QrLib.csproj|solutionrelative:mmpi33qr\\enums\\ecclevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75AE6EF-113D-4E55-857F-1980FF30A358}|MMPI33Qr\\QrLib.csproj|e:\\\u0447\u0433\u0443\\_3 \u043A\u0443\u0440\u0441\\\u0441#\\labs\\mmpi33qr\\mmpi33qr\\enums\\mask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75AE6EF-113D-4E55-857F-1980FF30A358}|MMPI33Qr\\QrLib.csproj|solutionrelative:mmpi33qr\\enums\\mask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75AE6EF-113D-4E55-857F-1980FF30A358}|MMPI33Qr\\QrLib.csproj|e:\\\u0447\u0433\u0443\\_3 \u043A\u0443\u0440\u0441\\\u0441#\\labs\\mmpi33qr\\mmpi33qr\\enums\\qrcodetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75AE6EF-113D-4E55-857F-1980FF30A358}|MMPI33Qr\\QrLib.csproj|solutionrelative:mmpi33qr\\enums\\qrcodetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\Terminal\\Program.cs",
+              "RelativeDocumentMoniker": "Terminal\\Program.cs",
+              "ToolTip": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\Terminal\\Program.cs",
+              "RelativeToolTip": "Terminal\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:35:00.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QrCodeBuilder.cs",
+              "DocumentMoniker": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\MMPI33Qr\\Services\\QrCodeBuilder.cs",
+              "RelativeDocumentMoniker": "MMPI33Qr\\Services\\QrCodeBuilder.cs",
+              "ToolTip": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\MMPI33Qr\\Services\\QrCodeBuilder.cs",
+              "RelativeToolTip": "MMPI33Qr\\Services\\QrCodeBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0BAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:14:09.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QrCodeData.cs",
+              "DocumentMoniker": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\MMPI33Qr\\Data\\QrCodeData.cs",
+              "RelativeDocumentMoniker": "MMPI33Qr\\Data\\QrCodeData.cs",
+              "ToolTip": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\MMPI33Qr\\Data\\QrCodeData.cs",
+              "RelativeToolTip": "MMPI33Qr\\Data\\QrCodeData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:12:49.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IQRCode.cs",
+              "DocumentMoniker": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\MMPI33Qr\\Interfaces\\IQRCode.cs",
+              "RelativeDocumentMoniker": "MMPI33Qr\\Interfaces\\IQRCode.cs",
+              "ToolTip": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\MMPI33Qr\\Interfaces\\IQRCode.cs",
+              "RelativeToolTip": "MMPI33Qr\\Interfaces\\IQRCode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T08:42:29.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QRCode.cs",
+              "DocumentMoniker": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\MMPI33Qr\\Models\\QRCode.cs",
+              "RelativeDocumentMoniker": "MMPI33Qr\\Models\\QRCode.cs",
+              "ToolTip": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\MMPI33Qr\\Models\\QRCode.cs",
+              "RelativeToolTip": "MMPI33Qr\\Models\\QRCode.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAF4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T08:50:50.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TestLab1.cs",
+              "DocumentMoniker": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\Terminal\\LabsTests\\Tests\\TestLab1\\TestLab1.cs",
+              "RelativeDocumentMoniker": "Terminal\\LabsTests\\Tests\\TestLab1\\TestLab1.cs",
+              "ToolTip": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\Terminal\\LabsTests\\Tests\\TestLab1\\TestLab1.cs",
+              "RelativeToolTip": "Terminal\\LabsTests\\Tests\\TestLab1\\TestLab1.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T05:36:30.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ITest.cs",
+              "DocumentMoniker": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\Terminal\\LabsTests\\Interfaces\\ITest.cs",
+              "RelativeDocumentMoniker": "Terminal\\LabsTests\\Interfaces\\ITest.cs",
+              "ToolTip": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\Terminal\\LabsTests\\Interfaces\\ITest.cs",
+              "RelativeToolTip": "Terminal\\LabsTests\\Interfaces\\ITest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T05:38:14.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pair.cs",
+              "DocumentMoniker": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\MMPI33Qr\\Data\\Pair.cs",
+              "RelativeDocumentMoniker": "MMPI33Qr\\Data\\Pair.cs",
+              "ToolTip": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\MMPI33Qr\\Data\\Pair.cs",
+              "RelativeToolTip": "MMPI33Qr\\Data\\Pair.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:12:11.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EncodingDetector.cs",
+              "DocumentMoniker": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\MMPI33Qr\\Services\\EncodingDetector.cs",
+              "RelativeDocumentMoniker": "MMPI33Qr\\Services\\EncodingDetector.cs",
+              "ToolTip": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\MMPI33Qr\\Services\\EncodingDetector.cs",
+              "RelativeToolTip": "MMPI33Qr\\Services\\EncodingDetector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T05:05:25.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "QrLib.csproj",
+              "DocumentMoniker": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\MMPI33Qr\\QrLib.csproj",
+              "RelativeDocumentMoniker": "MMPI33Qr\\QrLib.csproj",
+              "ToolTip": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\MMPI33Qr\\QrLib.csproj",
+              "RelativeToolTip": "MMPI33Qr\\QrLib.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-02T05:29:29.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EncodingMode.cs",
+              "DocumentMoniker": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\MMPI33Qr\\Enums\\EncodingMode.cs",
+              "RelativeDocumentMoniker": "MMPI33Qr\\Enums\\EncodingMode.cs",
+              "ToolTip": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\MMPI33Qr\\Enums\\EncodingMode.cs",
+              "RelativeToolTip": "MMPI33Qr\\Enums\\EncodingMode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:08:39.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Terminal.csproj",
+              "DocumentMoniker": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\Terminal\\Terminal.csproj",
+              "RelativeDocumentMoniker": "Terminal\\Terminal.csproj",
+              "ToolTip": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\Terminal\\Terminal.csproj",
+              "RelativeToolTip": "Terminal\\Terminal.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-02T05:35:11.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Mask.cs",
+              "DocumentMoniker": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\MMPI33Qr\\Enums\\Mask.cs",
+              "RelativeDocumentMoniker": "MMPI33Qr\\Enums\\Mask.cs",
+              "ToolTip": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\MMPI33Qr\\Enums\\Mask.cs",
+              "RelativeToolTip": "MMPI33Qr\\Enums\\Mask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:07:40.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "QR.cs",
+              "DocumentMoniker": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\MMPI33Qr\\Enums\\QR.cs",
+              "RelativeDocumentMoniker": "MMPI33Qr\\Enums\\QR.cs",
+              "ToolTip": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\MMPI33Qr\\Enums\\QR.cs",
+              "RelativeToolTip": "MMPI33Qr\\Enums\\QR.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwvxkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:05:48.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EccLevel.cs",
+              "DocumentMoniker": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\MMPI33Qr\\Enums\\EccLevel.cs",
+              "RelativeDocumentMoniker": "MMPI33Qr\\Enums\\EccLevel.cs",
+              "ToolTip": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\MMPI33Qr\\Enums\\EccLevel.cs",
+              "RelativeToolTip": "MMPI33Qr\\Enums\\EccLevel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:08:55.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "QrCodeType.cs",
+              "DocumentMoniker": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\MMPI33Qr\\Enums\\QrCodeType.cs",
+              "RelativeDocumentMoniker": "MMPI33Qr\\Enums\\QrCodeType.cs",
+              "ToolTip": "E:\\\u0427\u0413\u0423\\_3 \u043A\u0443\u0440\u0441\\\u0421#\\Labs\\MMPI33Qr\\MMPI33Qr\\Enums\\QrCodeType.cs",
+              "RelativeToolTip": "MMPI33Qr\\Enums\\QrCodeType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:09:15.563Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 186,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
