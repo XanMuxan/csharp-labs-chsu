@@ -14,10 +14,12 @@ namespace Terminal.LabsTests.Tests.TestLab2
 {
     public class TestLab2 : ITest
     {
+        public List<IProduct> products = new();
+        public List<IProduct> packagedProducts = new();
         public int Test()
         {
             Console.Clear();
-            Console.WriteLine("Лабараторная работа 2");
+            Console.WriteLine("====== Лабараторная работа 2 ======");
 
             IQRCode.OutputType = QrCodeType.Full;
 
@@ -31,8 +33,12 @@ namespace Terminal.LabsTests.Tests.TestLab2
             IProduct memoryDevice = new MemoryDevice(id, price, name, type, capacity, memoryType);
             IProduct package = new Package(memoryDevice);
 
+            products.Add(memoryDevice);
+            packagedProducts.Add(package);
+
+            Console.WriteLine("====== Неупакованный товар ======");
             Console.WriteLine(memoryDevice);
-            Console.WriteLine("Упакованный товар");
+            Console.WriteLine("====== Упакованный товар ======");
             Console.WriteLine(package);
 
             return 0;
