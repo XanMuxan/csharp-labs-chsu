@@ -833,7 +833,7 @@ namespace QrLib.Services
         private static bool Magic6((int x, int y) m) => ((m.x * m.y) % 2 + (m.x * m.y) % 3) % 2 == 0;
         private static bool Magic7((int x, int y) m) => ((m.x * m.y) % 3 + (m.x + m.y) % 2) % 2 == 0;
 
-        private static Predicate<(int, int)> Magic1(Mask a = Mask.M111)
+        private static Predicate<(int, int)>? Magic1(Mask a = Mask.M111)
             => a switch
             {
                 Mask.M101 => Magic0,

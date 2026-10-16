@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QrLib", "MMPI33Qr\QrLib.csproj", "{D75AE6EF-113D-4E55-857F-1980FF30A358}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab1", "Lab1", "{47584D36-242F-47F2-B545-BC3C536EF408}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Terminal", "Terminal\Terminal.csproj", "{2660F1A0-B953-475B-A77E-A34AC6033F49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab2", "Lab2\Lab2.csproj", "{0C69FC2C-EA42-4F47-BA96-8A74DB4BF84E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{2660F1A0-B953-475B-A77E-A34AC6033F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2660F1A0-B953-475B-A77E-A34AC6033F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2660F1A0-B953-475B-A77E-A34AC6033F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C69FC2C-EA42-4F47-BA96-8A74DB4BF84E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C69FC2C-EA42-4F47-BA96-8A74DB4BF84E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C69FC2C-EA42-4F47-BA96-8A74DB4BF84E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C69FC2C-EA42-4F47-BA96-8A74DB4BF84E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
