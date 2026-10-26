@@ -28,11 +28,12 @@ namespace Lab2.Models
         public string AdditionalInformation { get; }
         public abstract string Description { get; } 
 
-        protected Product(int id, decimal price) 
+        protected Product(int id, decimal price, IQRCode code) 
         {
-            _code = new PackageCode();
-            Id = id;
-            Price = price;
+            _code = code;
+            _id = id;
+            _price = price;
+            RebuildCode();
         }
 
         public override string ToString()

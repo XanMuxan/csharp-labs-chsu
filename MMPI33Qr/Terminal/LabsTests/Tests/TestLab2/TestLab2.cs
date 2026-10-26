@@ -36,10 +36,17 @@ namespace Terminal.LabsTests.Tests.TestLab2
             products.Add(memoryDevice);
             packagedProducts.Add(package);
 
-            Console.WriteLine("====== Неупакованный товар ======");
-            Console.WriteLine(memoryDevice);
-            Console.WriteLine("====== Упакованный товар ======");
-            Console.WriteLine(package);
+            Console.WriteLine("====== Неупакованные товары ======");
+            foreach (IProduct product in products)
+            {
+                Console.WriteLine(product);
+            }
+            
+            Console.WriteLine("====== Упакованные товары ======");
+            foreach (IProduct product in packagedProducts)
+            {
+                Console.WriteLine(product);
+            }
 
             return 0;
         }

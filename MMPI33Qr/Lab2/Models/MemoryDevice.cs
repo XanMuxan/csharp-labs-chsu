@@ -22,7 +22,7 @@ namespace Lab2.Models
         public override string Type { get => _type; }
         public override string Description { get => _description; }
 
-        public MemoryDevice(int id, decimal price, string name, string type, double capacity, string memoryType) : base(id, price) 
+        public MemoryDevice(int id, decimal price, string name, string type, double capacity, string memoryType) : base(id, price, new QRCode()) 
         {
             Name = name;
             MemoryType = memoryType;

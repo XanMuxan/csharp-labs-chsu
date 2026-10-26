@@ -22,6 +22,6 @@ namespace QrLib.Interfaces
         string Text { get; set; }
 
         // === Статическое поле: способ вывода для ВСЕХ объектов ===
-        public static QrCodeType OutputType { get; set; } = QrCodeType.QrCode;
+        public static QrCodeType OutputType { get; set; } = QrCodeType.Full;
     }
 }

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Xml.Linq;
 using Lab2.Interfaces;
 using QrLib.Interfaces;
+using QrLib.Models;
 
 namespace Lab2.Models
 {
@@ -17,7 +18,7 @@ namespace Lab2.Models
         private readonly IProduct _product;
 
         public Package(IProduct product)
-            : base(product.Id, product.Price * 1.10m)
+            : base(product.Id, product.Price * 1.10m, new PackageCode())
         {
             _product = product;
         }
