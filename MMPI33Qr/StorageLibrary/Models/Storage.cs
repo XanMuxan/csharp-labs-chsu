@@ -89,6 +89,11 @@ namespace StorageLibrary.Models
 
         /// <summary>Доставание товара по индексу.</summary>
         public T Pop(int index) => this[index];
+        protected T Peek(int index)
+        {
+            if (index < 0 || index >= _items.Length) return default;
+            return _items[index]; 
+        }
 
         /// <summary>Перестановка двух товаров. Коды обновляются.</summary>
         public void Swap(int index1, int index2)

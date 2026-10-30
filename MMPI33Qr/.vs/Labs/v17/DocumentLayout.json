@@ -3,8 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2660F1A0-B953-475B-A77E-A34AC6033F49}|Terminal\\Terminal.csproj|c:\\users\\mainmuhan\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\c#\\labs\\mmpi33qr\\terminal\\labstests\\tests\\testlab3\\testlab3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2660F1A0-B953-475B-A77E-A34AC6033F49}|Terminal\\Terminal.csproj|solutionrelative:terminal\\labstests\\tests\\testlab3\\testlab3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2660F1A0-B953-475B-A77E-A34AC6033F49}|Terminal\\Terminal.csproj|c:\\users\\mainmuhan\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\c#\\labs\\mmpi33qr\\terminal\\labstests\\tests\\testlab4\\testlab4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2660F1A0-B953-475B-A77E-A34AC6033F49}|Terminal\\Terminal.csproj|solutionrelative:terminal\\labstests\\tests\\testlab4\\testlab4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2660F1A0-B953-475B-A77E-A34AC6033F49}|Terminal\\Terminal.csproj|c:\\users\\mainmuhan\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\c#\\labs\\mmpi33qr\\terminal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2660F1A0-B953-475B-A77E-A34AC6033F49}|Terminal\\Terminal.csproj|solutionrelative:terminal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A887C21-7547-4EC4-82AB-10345D2B1AA1}|Lab4\\StorageDelegateLibrary.csproj|c:\\users\\mainmuhan\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\c#\\labs\\mmpi33qr\\lab4\\models\\newstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A887C21-7547-4EC4-82AB-10345D2B1AA1}|Lab4\\StorageDelegateLibrary.csproj|solutionrelative:lab4\\models\\newstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A887C21-7547-4EC4-82AB-10345D2B1AA1}|Lab4\\StorageDelegateLibrary.csproj|c:\\users\\mainmuhan\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\c#\\labs\\mmpi33qr\\lab4\\eventsargs\\productdatachangedargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A887C21-7547-4EC4-82AB-10345D2B1AA1}|Lab4\\StorageDelegateLibrary.csproj|solutionrelative:lab4\\eventsargs\\productdatachangedargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48EB52C-6F7E-4CBA-9C3E-7AF72BF0F24E}|Interactive\\Interactive.csproj|c:\\users\\mainmuhan\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\c#\\labs\\mmpi33qr\\interactive\\interactive.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A48EB52C-6F7E-4CBA-9C3E-7AF72BF0F24E}|Interactive\\Interactive.csproj|solutionrelative:interactive\\interactive.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48EB52C-6F7E-4CBA-9C3E-7AF72BF0F24E}|Interactive\\Interactive.csproj|c:\\users\\mainmuhan\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\c#\\labs\\mmpi33qr\\interactive\\models\\terminalui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A48EB52C-6F7E-4CBA-9C3E-7AF72BF0F24E}|Interactive\\Interactive.csproj|solutionrelative:interactive\\models\\terminalui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2660F1A0-B953-475B-A77E-A34AC6033F49}|Terminal\\Terminal.csproj|c:\\users\\mainmuhan\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\c#\\labs\\mmpi33qr\\terminal\\labstests\\tests\\testlab2\\testlab2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2660F1A0-B953-475B-A77E-A34AC6033F49}|Terminal\\Terminal.csproj|solutionrelative:terminal\\labstests\\tests\\testlab2\\testlab2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DA94B814-A053-46D0-B77D-9629DB3C8C0D}|StorageLibrary\\StorageLibrary.csproj|c:\\users\\mainmuhan\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\c#\\labs\\mmpi33qr\\storagelibrary\\models\\storage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA94B814-A053-46D0-B77D-9629DB3C8C0D}|StorageLibrary\\StorageLibrary.csproj|solutionrelative:storagelibrary\\models\\storage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A887C21-7547-4EC4-82AB-10345D2B1AA1}|Lab4\\StorageDelegateLibrary.csproj|c:\\users\\mainmuhan\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\c#\\labs\\mmpi33qr\\lab4\\models\\newmemorydevice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A887C21-7547-4EC4-82AB-10345D2B1AA1}|Lab4\\StorageDelegateLibrary.csproj|solutionrelative:lab4\\models\\newmemorydevice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A887C21-7547-4EC4-82AB-10345D2B1AA1}|Lab4\\StorageDelegateLibrary.csproj|c:\\users\\mainmuhan\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\c#\\labs\\mmpi33qr\\lab4\\models\\newpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A887C21-7547-4EC4-82AB-10345D2B1AA1}|Lab4\\StorageDelegateLibrary.csproj|solutionrelative:lab4\\models\\newpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A887C21-7547-4EC4-82AB-10345D2B1AA1}|Lab4\\StorageDelegateLibrary.csproj|c:\\users\\mainmuhan\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\c#\\labs\\mmpi33qr\\lab4\\interfaces\\inewproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A887C21-7547-4EC4-82AB-10345D2B1AA1}|Lab4\\StorageDelegateLibrary.csproj|solutionrelative:lab4\\interfaces\\inewproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0C69FC2C-EA42-4F47-BA96-8A74DB4BF84E}|Lab2\\Lab2.csproj|c:\\users\\mainmuhan\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\c#\\labs\\mmpi33qr\\lab2\\models\\package.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,24 +63,12 @@
       "RelativeMoniker": "D:0:0:{DA94B814-A053-46D0-B77D-9629DB3C8C0D}|StorageLibrary\\StorageLibrary.csproj|solutionrelative:storagelibrary\\interfaces\\istorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2660F1A0-B953-475B-A77E-A34AC6033F49}|Terminal\\Terminal.csproj|c:\\users\\mainmuhan\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\c#\\labs\\mmpi33qr\\terminal\\labstests\\tests\\testlab3\\testlab3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2660F1A0-B953-475B-A77E-A34AC6033F49}|Terminal\\Terminal.csproj|solutionrelative:terminal\\labstests\\tests\\testlab3\\testlab3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2660F1A0-B953-475B-A77E-A34AC6033F49}|Terminal\\Terminal.csproj|c:\\users\\mainmuhan\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\c#\\labs\\mmpi33qr\\terminal\\labstests\\tests\\testlab2\\testlab2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2660F1A0-B953-475B-A77E-A34AC6033F49}|Terminal\\Terminal.csproj|solutionrelative:terminal\\labstests\\tests\\testlab2\\testlab2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0C69FC2C-EA42-4F47-BA96-8A74DB4BF84E}|Lab2\\Lab2.csproj|c:\\users\\mainmuhan\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\c#\\labs\\mmpi33qr\\lab2\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C69FC2C-EA42-4F47-BA96-8A74DB4BF84E}|Lab2\\Lab2.csproj|solutionrelative:lab2\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D75AE6EF-113D-4E55-857F-1980FF30A358}|MMPI33Qr\\QrLib.csproj|c:\\users\\mainmuhan\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\c#\\labs\\mmpi33qr\\mmpi33qr\\interfaces\\iqrcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D75AE6EF-113D-4E55-857F-1980FF30A358}|MMPI33Qr\\QrLib.csproj|solutionrelative:mmpi33qr\\interfaces\\iqrcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2660F1A0-B953-475B-A77E-A34AC6033F49}|Terminal\\Terminal.csproj|c:\\users\\mainmuhan\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\c#\\labs\\mmpi33qr\\terminal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2660F1A0-B953-475B-A77E-A34AC6033F49}|Terminal\\Terminal.csproj|solutionrelative:terminal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA94B814-A053-46D0-B77D-9629DB3C8C0D}|StorageLibrary\\StorageLibrary.csproj|c:\\users\\mainmuhan\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\c#\\labs\\mmpi33qr\\storagelibrary\\storagelibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -62,48 +94,167 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Terminal\\Program.cs",
-              "RelativeDocumentMoniker": "Terminal\\Program.cs",
-              "ToolTip": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Terminal\\Program.cs",
-              "RelativeToolTip": "Terminal\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAGAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "TerminalUI.cs",
+              "DocumentMoniker": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Interactive\\Models\\TerminalUI.cs",
+              "RelativeDocumentMoniker": "Interactive\\Models\\TerminalUI.cs",
+              "ToolTip": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Interactive\\Models\\TerminalUI.cs",
+              "RelativeToolTip": "Interactive\\Models\\TerminalUI.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T08:10:48.822Z"
+              "WhenOpened": "2026-10-30T17:24:16.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Interactive",
+              "DocumentMoniker": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Interactive\\Interactive.csproj",
+              "RelativeDocumentMoniker": "Interactive\\Interactive.csproj",
+              "ToolTip": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Interactive\\Interactive.csproj",
+              "RelativeToolTip": "Interactive\\Interactive.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-30T17:23:02.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestLab4.cs",
+              "DocumentMoniker": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Terminal\\LabsTests\\Tests\\TestLab4\\TestLab4.cs",
+              "RelativeDocumentMoniker": "Terminal\\LabsTests\\Tests\\TestLab4\\TestLab4.cs",
+              "ToolTip": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Terminal\\LabsTests\\Tests\\TestLab4\\TestLab4.cs",
+              "RelativeToolTip": "Terminal\\LabsTests\\Tests\\TestLab4\\TestLab4.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T17:06:05.29Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "ProductDataChangedArgs.cs",
+              "DocumentMoniker": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Lab4\\EventsArgs\\ProductDataChangedArgs.cs",
+              "RelativeDocumentMoniker": "Lab4\\EventsArgs\\ProductDataChangedArgs.cs",
+              "ToolTip": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Lab4\\EventsArgs\\ProductDataChangedArgs.cs",
+              "RelativeToolTip": "Lab4\\EventsArgs\\ProductDataChangedArgs.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T17:00:50.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "TestLab3.cs",
               "DocumentMoniker": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Terminal\\LabsTests\\Tests\\TestLab3\\TestLab3.cs",
               "RelativeDocumentMoniker": "Terminal\\LabsTests\\Tests\\TestLab3\\TestLab3.cs",
               "ToolTip": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Terminal\\LabsTests\\Tests\\TestLab3\\TestLab3.cs",
               "RelativeToolTip": "Terminal\\LabsTests\\Tests\\TestLab3\\TestLab3.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwB8AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T08:05:03.08Z"
+              "WhenOpened": "2026-10-24T08:05:03.08Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Terminal\\Program.cs",
+              "RelativeDocumentMoniker": "Terminal\\Program.cs",
+              "ToolTip": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Terminal\\Program.cs",
+              "RelativeToolTip": "Terminal\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T08:10:48.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NewStorage.cs",
+              "DocumentMoniker": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Lab4\\Models\\NewStorage.cs",
+              "RelativeDocumentMoniker": "Lab4\\Models\\NewStorage.cs",
+              "ToolTip": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Lab4\\Models\\NewStorage.cs",
+              "RelativeToolTip": "Lab4\\Models\\NewStorage.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAIwEEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T16:48:07.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Storage.cs",
               "DocumentMoniker": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\StorageLibrary\\Models\\Storage.cs",
               "RelativeDocumentMoniker": "StorageLibrary\\Models\\Storage.cs",
               "ToolTip": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\StorageLibrary\\Models\\Storage.cs",
               "RelativeToolTip": "StorageLibrary\\Models\\Storage.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAkwGYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAgwFsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-24T07:59:49.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
+              "Title": "TestLab2.cs",
+              "DocumentMoniker": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Terminal\\LabsTests\\Tests\\TestLab2\\TestLab2.cs",
+              "RelativeDocumentMoniker": "Terminal\\LabsTests\\Tests\\TestLab2\\TestLab2.cs",
+              "ToolTip": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Terminal\\LabsTests\\Tests\\TestLab2\\TestLab2.cs",
+              "RelativeToolTip": "Terminal\\LabsTests\\Tests\\TestLab2\\TestLab2.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-17T08:11:41.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NewMemoryDevice .cs",
+              "DocumentMoniker": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Lab4\\Models\\NewMemoryDevice .cs",
+              "RelativeDocumentMoniker": "Lab4\\Models\\NewMemoryDevice .cs",
+              "ToolTip": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Lab4\\Models\\NewMemoryDevice .cs",
+              "RelativeToolTip": "Lab4\\Models\\NewMemoryDevice .cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA7wDAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T17:02:46.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NewPackage.cs",
+              "DocumentMoniker": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Lab4\\Models\\NewPackage.cs",
+              "RelativeDocumentMoniker": "Lab4\\Models\\NewPackage.cs",
+              "ToolTip": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Lab4\\Models\\NewPackage.cs",
+              "RelativeToolTip": "Lab4\\Models\\NewPackage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwC4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T17:03:17.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "INewProduct.cs",
+              "DocumentMoniker": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Lab4\\Interfaces\\INewProduct.cs",
+              "RelativeDocumentMoniker": "Lab4\\Interfaces\\INewProduct.cs",
+              "ToolTip": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Lab4\\Interfaces\\INewProduct.cs",
+              "RelativeToolTip": "Lab4\\Interfaces\\INewProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T16:51:23.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "IStorage.cs",
               "DocumentMoniker": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\StorageLibrary\\Interfaces\\IStorage.cs",
               "RelativeDocumentMoniker": "StorageLibrary\\Interfaces\\IStorage.cs",
@@ -111,11 +262,12 @@
               "RelativeToolTip": "StorageLibrary\\Interfaces\\IStorage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T07:19:00.933Z"
+              "WhenOpened": "2026-10-24T07:19:00.933Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "StorageLibrary.csproj",
               "DocumentMoniker": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\StorageLibrary\\StorageLibrary.csproj",
               "RelativeDocumentMoniker": "StorageLibrary\\StorageLibrary.csproj",
@@ -123,11 +275,12 @@
               "RelativeToolTip": "StorageLibrary\\StorageLibrary.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-10-24T07:42:45.282Z"
+              "WhenOpened": "2026-10-24T07:42:45.282Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "ProductExtensions.cs",
               "DocumentMoniker": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\StorageLibrary\\Extensions\\ProductExtensions.cs",
               "RelativeDocumentMoniker": "StorageLibrary\\Extensions\\ProductExtensions.cs",
@@ -135,23 +288,25 @@
               "RelativeToolTip": "StorageLibrary\\Extensions\\ProductExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T07:43:55.206Z"
+              "WhenOpened": "2026-10-24T07:43:55.206Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Lab2\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Lab2\\Models\\Product.cs",
               "ToolTip": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Lab2\\Models\\Product.cs",
               "RelativeToolTip": "Lab2\\Models\\Product.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowCkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAA7wCkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-17T07:31:09.251Z"
+              "WhenOpened": "2026-10-17T07:31:09.251Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "Package.cs",
               "DocumentMoniker": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Lab2\\Models\\Package.cs",
               "RelativeDocumentMoniker": "Lab2\\Models\\Package.cs",
@@ -164,19 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TestLab2.cs",
-              "DocumentMoniker": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Terminal\\LabsTests\\Tests\\TestLab2\\TestLab2.cs",
-              "RelativeDocumentMoniker": "Terminal\\LabsTests\\Tests\\TestLab2\\TestLab2.cs",
-              "ToolTip": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Terminal\\LabsTests\\Tests\\TestLab2\\TestLab2.cs",
-              "RelativeToolTip": "Terminal\\LabsTests\\Tests\\TestLab2\\TestLab2.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-17T08:11:41.314Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "IQRCode.cs",
               "DocumentMoniker": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\MMPI33Qr\\Interfaces\\IQRCode.cs",
               "RelativeDocumentMoniker": "MMPI33Qr\\Interfaces\\IQRCode.cs",
@@ -184,11 +327,12 @@
               "RelativeToolTip": "MMPI33Qr\\Interfaces\\IQRCode.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T08:17:57.32Z"
+              "WhenOpened": "2026-10-24T08:17:57.32Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "MemoryDevice.cs",
               "DocumentMoniker": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Lab2\\Models\\MemoryDevice.cs",
               "RelativeDocumentMoniker": "Lab2\\Models\\MemoryDevice.cs",
@@ -196,11 +340,12 @@
               "RelativeToolTip": "Lab2\\Models\\MemoryDevice.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-17T08:37:03.181Z"
+              "WhenOpened": "2026-10-17T08:37:03.181Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "Terminal.csproj",
               "DocumentMoniker": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Terminal\\Terminal.csproj",
               "RelativeDocumentMoniker": "Terminal\\Terminal.csproj",
@@ -208,11 +353,12 @@
               "RelativeToolTip": "Terminal\\Terminal.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-10-17T07:53:59.476Z"
+              "WhenOpened": "2026-10-17T07:53:59.476Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "PackageCode.cs",
               "DocumentMoniker": "C:\\Users\\MainMuhan\\Desktop\\\u0423\u043D\u0438\u0432\u0435\u0440\\_3 \u043A\u0443\u0440\u0441\\C#\\Labs\\MMPI33Qr\\Lab2\\Models\\PackageCode.cs",
               "RelativeDocumentMoniker": "Lab2\\Models\\PackageCode.cs",
@@ -220,7 +366,8 @@
               "RelativeToolTip": "Lab2\\Models\\PackageCode.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-17T07:26:14.542Z"
+              "WhenOpened": "2026-10-17T07:26:14.542Z",
+              "EditorCaption": ""
             }
           ]
         }
