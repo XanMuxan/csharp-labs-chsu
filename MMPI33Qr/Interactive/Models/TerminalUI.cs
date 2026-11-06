@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Lab2.Models;
 using QrLib.Enums;
 using QrLib.Interfaces;
 using StorageDelegateLibrary.Interfaces;
 using StorageDelegateLibrary.Models;
+using StorageLibrary.Extensions;
 
 namespace Interactive.Models
 {
@@ -40,6 +42,7 @@ namespace Interactive.Models
                 Console.WriteLine("7. Удалить товар с витрины");
                 Console.WriteLine("8. Очистить витрину полностью");
                 Console.WriteLine("9. Изменить ID витрины");
+                Console.WriteLine("10. Выложить товар на витрину");
                 Console.WriteLine("0. Выход");
                 Console.Write("\nВыберите действие: ");
 
@@ -57,6 +60,7 @@ namespace Interactive.Models
                     case "7": RemoveProduct(); break;
                     case "8": ClearStorage(); break;
                     case "9": ChangeStorageId(); break;
+                    case "10": AddProductToStorage(); break;
                     case "0": exit = true; break;
                     default:
                         Console.WriteLine("Неверный ввод. Нажмите Enter...");
@@ -128,7 +132,7 @@ namespace Interactive.Models
             foreach (var storage in _storages)
             {
                 // Выводит ID витрины, размер и QR-коды товаров
-                Console.WriteLine(storage.ToString());
+                Console.WriteLine(storage);
                 Console.WriteLine(new string('-', 40));
             }
             Console.WriteLine("Нажмите Enter...");
@@ -147,10 +151,7 @@ namespace Interactive.Models
 
             foreach (var p in _availableProducts)
             {
-                Console.WriteLine($"[ID: {p.Id}] {p.Name} | Цена: {p.Price} | Тип: {p.Type}");
-                Console.WriteLine($"Описание: {p.Description}");
-                Console.WriteLine($"Доп. инфо: {p.AdditionalInformation}");
-                Console.WriteLine($"Код: {p.Code.Text}");
+                Console.WriteLine(p);
                 Console.WriteLine(new string('-', 20));
             }
             Console.WriteLine("Нажмите Enter...");
@@ -222,6 +223,7 @@ namespace Interactive.Models
             {
                 // Используем индексатор (он очищает ячейку)
                 var product = storage[pos];
+                
                 if (product != null)
                 {
                     _availableProducts.Add(product); // возвращаем в список доступных
@@ -265,7 +267,6 @@ namespace Interactive.Models
             if (int.TryParse(Console.ReadLine(), out int newId))
             {
                 storage.Id = newId;
-                Console.WriteLine($"ID витрины изменен на {newId}. Коды товаров обновлены.");
             }
             Console.WriteLine("Нажмите Enter...");
             Console.ReadLine();
@@ -294,6 +295,62 @@ namespace Interactive.Models
             Console.WriteLine("Неверный выбор.");
             Console.ReadLine();
             return null;
+        }
+        private void AddProductToStorage()
+        {
+            Console.Clear();
+            var storage = SelectStorage();
+            if (storage == null) return;
+
+            if (_availableProducts.Count == 0)
+            {
+                Console.WriteLine("Доступных товаров нет: ");
+                Console.ReadLine();
+                return;
+            }
+
+            Console.WriteLine("Доступные товары: ");
+            for (int i = 0; i < _availableProducts.Count;i++)
+            {
+                var product = _availableProducts[i];
+                Console.WriteLine($"{i}.{product}");
+            }
+
+            Console.WriteLine("Выберите номер товара: ");
+            if (int.TryParse(Console.ReadLine(), out int idx) && idx >= 0 && idx <= _availableProducts.Count)
+            {
+                var product = _availableProducts[idx];
+                Console.WriteLine("0.В первую свободную ячейку; 1.В выбранную ячейку: ");
+                string choice = Console.ReadLine();
+                if (choice == "0")
+                {
+                    storage.Push(product);
+                    _availableProducts.RemoveAt(idx);
+                }
+                else if (choice == "1")
+                {
+                    Console.WriteLine("Введите номер ячейки: ");
+                    if (int.TryParse(Console.ReadLine(), out int pos) && pos >= 0 && idx <= storage.Size)
+                    {
+                        storage[pos] = product;
+                        _availableProducts.RemoveAt(idx);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Неверная позиция");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Неверная выбор режима");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Неверный выбор товара");
+            }
+            Console.WriteLine("Нажмите Enter...");
+            Console.ReadLine();
         }
     }
 }

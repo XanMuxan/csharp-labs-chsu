@@ -3,37 +3,29 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Lab2.Models;
 using StorageDelegateLibrary.EventsArgs;
 using StorageDelegateLibrary.Interfaces;
+using StorageLibrary.Extensions;
+using StorageLibrary.Interfaces;
 using StorageLibrary.Models;
 
 namespace StorageDelegateLibrary.Models
 {
-    /// <summary>
-    /// Делегат, информирующий о смене идентификатора склада.
-    /// </summary>
-    public delegate void StorageIdChangedHandler(object storage);
 
     /// <summary>
     /// Запакованный обобщенный класс склада (производный от Storage<T> из ЛР3).
     /// </summary>
-    public class NewStorage<T> : Storage<T>, IDisposable where T : INewProduct
+    public class NewStorage<T> : Storage<T>, IDisposable where T : class, INewProduct
     {
-        private StorageIdChangedHandler _idChangedDelegate;
-
-        /// <summary>Событие смены ID склада.</summary>
-        public event StorageIdChangedHandler IdChanged
-        {
-            add { _idChangedDelegate += value; }
-            remove { _idChangedDelegate -= value; }
-        }
+        private Action<IStorage<T>> _idChangedDelegate;
 
         /// <summary>
         /// Единственный закрытый конструктор. Принимает кортеж (размер, ID).
         /// </summary>
         private NewStorage(int size, int id) : base(size)
         {
-            base.Id = id;
+            Id = id;
         }
 
         public static implicit operator NewStorage<T>(int size) => new NewStorage<T>(size, 0);
@@ -44,19 +36,19 @@ namespace StorageDelegateLibrary.Models
         /// </summary>
         public override int Id
         {
-            get => base.Id;
+            get => _id;
             set
             {
-                if (base.Id != value)
+                if (_id != value)
                 {
-                    base.Id = value;
+                    _id = value;
                     _idChangedDelegate?.Invoke(this);
                 }
             }
         }
 
         /// <summary>
-        /// Перегрузка индексатора с подпиской/отпиской.
+        /// Перегрузка индексатора
         /// </summary>
         public override T this[int index]
         {
@@ -70,9 +62,9 @@ namespace StorageDelegateLibrary.Models
 
                 if (value != null)
                 {
+                    _idChangedDelegate += IdChangeSubscribe(value);
                     value.DataChanged += OnProductDataChanged;
-                    // Делегируем обновление кода методу расширения из ЛР3
-                    StorageLibrary.Extensions.ProductExtensions.SetProductCode(value, this.Id, index);
+                   
                 }
             }
         }
@@ -83,15 +75,33 @@ namespace StorageDelegateLibrary.Models
             if (item != null)
             {
                 item.DataChanged += OnProductDataChanged;
-                StorageLibrary.Extensions.ProductExtensions.SetProductCode(item, this.Id, Find(item.Id));
+                _idChangedDelegate += IdChangeSubscribe(item);
             }
+        }
+
+        public new void Pop(int index)
+        {
+            if (this[index] != null)
+            { 
+                this[index].DataChanged -= OnProductDataChanged;
+                _idChangedDelegate -= IdChangeSubscribe(this[index]);
+            }
+            base.Pop(index);
+        }
+
+        private Action<IStorage<T>> IdChangeSubscribe(T item)
+        {
+            return (storage) =>
+            {
+                StorageLibrary.Extensions.ProductExtensions.SetProductCode(item, this);
+            };
         }
 
         private void OnProductDataChanged(object sender, ProductDataChangedArgs e)
         {
             if (sender is T product)
             {
-                int pos = Find(product.Id);
+                int pos = Find(e.NewId);
                 if (pos != -1)
                     StorageLibrary.Extensions.ProductExtensions.SetProductCode(product, this.Id, pos);
             }
@@ -147,7 +157,7 @@ namespace StorageDelegateLibrary.Models
             _idChangedDelegate = null;
             for (int i = 0; i < this.Size; i++)
             {
-                var item = Peek(i);
+                var item = this[i];
                 if (item != null) item.DataChanged -= OnProductDataChanged;
             }
         }

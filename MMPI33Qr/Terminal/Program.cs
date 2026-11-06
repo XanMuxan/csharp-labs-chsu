@@ -14,9 +14,16 @@ class Program
         {
             ITest test;
             ITest[] tests = { new TestLab1(), new TestLab2(), new TestLab3(), new TestLab4() };
-            int testNum = int.Parse(Console.ReadLine());
-
-            test = tests[testNum];
+            Console.WriteLine("Введите номер нужного теста (0-Test1, 1-Test2, 2-Test3, 3-Test4): ");
+            while (true)
+            {
+                if (int.TryParse(Console.ReadLine(), out int idx) && idx >= 0 && idx < tests.Length)
+                {
+                    test = tests[idx];
+                    break;
+                }
+            }
+            
             while (true)
             {
                 test.Test();

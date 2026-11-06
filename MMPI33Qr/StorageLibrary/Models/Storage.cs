@@ -18,7 +18,7 @@ namespace StorageLibrary.Models
         // === Атрибуты класса ===
         private static int _nextId = 1;
         private readonly T[] _items;
-        private int _id;
+        protected int _id;
 
         /// <summary>
         /// Защищённый конструктор
@@ -59,6 +59,7 @@ namespace StorageLibrary.Models
             {
                 if (index < 0 || index >= _items.Length) return default;
                 T item = _items[index];
+                item.Id = _items[index].Id;
                 _items[index] = default;
                 return item;
             }
@@ -89,25 +90,15 @@ namespace StorageLibrary.Models
 
         /// <summary>Доставание товара по индексу.</summary>
         public T Pop(int index) => this[index];
-        protected T Peek(int index)
-        {
-            if (index < 0 || index >= _items.Length) return default;
-            return _items[index]; 
-        }
+
+        public T Peek(int index) => _items[index];
 
         /// <summary>Перестановка двух товаров. Коды обновляются.</summary>
         public void Swap(int index1, int index2)
         {
-            if (index1 < 0 || index1 >= _items.Length ||
-                index2 < 0 || index2 >= _items.Length) return;
 
             if (index1 == index2) return;
-
-            T a = _items[index1];
-            T b = _items[index2];
-
-            if (b != null) Insert(index1, b); else _items[index1] = default;
-            if (a != null) Insert(index2, a); else _items[index2] = default;
+            (this[index1], this[index2]) = (this[index2], this[index1]);
         }
 
         /// <summary>Замена товара по индексу.</summary>
