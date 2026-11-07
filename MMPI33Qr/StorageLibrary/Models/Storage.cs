@@ -59,11 +59,16 @@ namespace StorageLibrary.Models
             {
                 if (index < 0 || index >= _items.Length) return default;
                 T item = _items[index];
-                item.Id = _items[index].Id;
                 _items[index] = default;
                 return item;
             }
-            set => Insert(index, value);
+            set /*=> Insert(index, value);*/
+            {
+                if (index < 0 || index >= _items.Length || value == null) return;
+                _items[index] = value;
+                value.SetProductCode(_id, index);
+            }
+
         }
 
         /// <summary>Добавление в первую пустую ячейку.</summary>
@@ -74,7 +79,8 @@ namespace StorageLibrary.Models
             {
                 if (_items[i] == null)
                 {
-                    Insert(i, item);
+                    //Insert(i, item);
+                    this[i] = item;
                     return;
                 }
             }
@@ -83,9 +89,10 @@ namespace StorageLibrary.Models
         /// <summary>Добавление в конкретную позицию.</summary>
         public void Insert(int index, T item)
         {
-            if (index < 0 || index >= _items.Length || item == null) return;
-            _items[index] = item;
-            item.SetProductCode(_id, index);
+            //if (index < 0 || index >= _items.Length || item == null) return;
+            //_items[index] = item;
+            //item.SetProductCode(_id, index);
+            this[index] = item;
         }
 
         /// <summary>Доставание товара по индексу.</summary>

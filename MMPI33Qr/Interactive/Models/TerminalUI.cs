@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 using Lab2.Models;
 using QrLib.Enums;
 using QrLib.Interfaces;
@@ -43,6 +45,7 @@ namespace Interactive.Models
                 Console.WriteLine("8. Очистить витрину полностью");
                 Console.WriteLine("9. Изменить ID витрины");
                 Console.WriteLine("10. Выложить товар на витрину");
+                Console.WriteLine("11. Упаковать свободный товар");
                 Console.WriteLine("0. Выход");
                 Console.Write("\nВыберите действие: ");
 
@@ -61,6 +64,7 @@ namespace Interactive.Models
                     case "8": ClearStorage(); break;
                     case "9": ChangeStorageId(); break;
                     case "10": AddProductToStorage(); break;
+                    case "11": PackageItem(); break;
                     case "0": exit = true; break;
                     default:
                         Console.WriteLine("Неверный ввод. Нажмите Enter...");
@@ -82,7 +86,7 @@ namespace Interactive.Models
 
             if (id == 0) id = _storageCounter++;
 
-            // Используем неявное приведение кортежа из ЛР4
+            // Используем неявное приведение кортежа 
             NewStorage<INewProduct> storage = (size, id);
             _storages.Add(storage);
             Console.WriteLine($"Витрина #{id} создана. Размер: {size}. Нажмите Enter...");
@@ -104,14 +108,14 @@ namespace Interactive.Models
             bool isPackage = Console.ReadLine() == "1";
 
             INewProduct product;
+            var item = new NewMemoryDevice(id, price, name, "USB", 64, "exFAT");
             if (isPackage)
             {
-                var inner = new NewMemoryDevice(id, price, name, "USB", 64, "exFAT");
-                product = new NewPackage(inner);
+                product = new NewPackage(item);
             }
             else
             {
-                product = new NewMemoryDevice(id, price, name, "USB", 64, "exFAT");
+                product = item;
             }
 
             _availableProducts.Add(product);
@@ -275,13 +279,14 @@ namespace Interactive.Models
         // Вспомогательный метод для выбора склада
         private NewStorage<INewProduct> SelectStorage()
         {
+            Console.Clear();
             if (_storages.Count == 0)
             {
                 Console.WriteLine("Нет созданных витрин. Нажмите Enter...");
                 Console.ReadLine();
                 return null;
             }
-
+            
             Console.WriteLine("Доступные витрины:");
             for (int i = 0; i < _storages.Count; i++)
             {
@@ -351,6 +356,22 @@ namespace Interactive.Models
             }
             Console.WriteLine("Нажмите Enter...");
             Console.ReadLine();
+        }
+        private void PackageItem()
+        {
+            Console.WriteLine("Доступные товары: ");
+            for (int i = 0; i < _availableProducts.Count; i++)
+            {
+                var product = _availableProducts[i];
+                Console.WriteLine($"{i}.{product}");
+            }
+
+            Console.WriteLine("Выберите номер товара: ");
+            if (int.TryParse(Console.ReadLine(), out int idx) && idx >= 0 && idx <= _availableProducts.Count)
+            {
+                var product = new NewPackage(_availableProducts[idx]);
+                _availableProducts[idx] = product;
+            }
         }
     }
 }

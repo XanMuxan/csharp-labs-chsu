@@ -10,23 +10,17 @@ namespace StorageDelegateLibrary.EventsArgs
     /// Аргументы события изменения данных товара.
     /// Имя класса заканчивается на Args (по правилам наименования).
     /// </summary>
-    public class ProductDataChangedArgs : EventArgs
+    /// <remarks>
+    /// Основной конструктор с двумя параметрами.
+    /// </remarks>
+    /// <param name="newId">Новый идентификатор.</param>
+    /// <param name="newPrice">Новая цена.</param>
+    public class ProductDataChangedArgs(int newId, decimal newPrice) : EventArgs
     {
         /// <summary>Новый идентификатор товара.</summary>
-        public int NewId { get; }
+        public int NewId { get; } = newId;
 
         /// <summary>Новая цена товара.</summary>
-        public decimal NewPrice { get; }
-
-        /// <summary>
-        /// Основной конструктор с двумя параметрами.
-        /// </summary>
-        /// <param name="newId">Новый идентификатор.</param>
-        /// <param name="newPrice">Новая цена.</param>
-        public ProductDataChangedArgs(int newId, decimal newPrice)
-        {
-            NewId = newId;
-            NewPrice = newPrice;
-        }
+        public decimal NewPrice { get; } = newPrice;
     }
 }

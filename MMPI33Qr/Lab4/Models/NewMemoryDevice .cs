@@ -10,7 +10,7 @@ using StorageDelegateLibrary.Interfaces;
 namespace StorageDelegateLibrary.Models
 {
     /// <summary>
-    /// Новый класс товара (производный от MemoryDevice из ЛР2).
+    /// Новый класс товара
     /// </summary>
     public class NewMemoryDevice : MemoryDevice, INewProduct
     {

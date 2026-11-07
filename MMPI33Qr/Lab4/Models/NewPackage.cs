@@ -10,7 +10,7 @@ using StorageDelegateLibrary.Interfaces;
 namespace StorageDelegateLibrary.Models
 {
     /// <summary>
-    /// Новый класс упаковки (производный от Package из ЛР2).
+    /// Новый класс упаковки
     /// </summary>
     public class NewPackage : Package, INewProduct, IDisposable
     {
@@ -35,6 +35,33 @@ namespace StorageDelegateLibrary.Models
 
             // Информируем об изменении своих данных
             DataChanged?.Invoke(this, new ProductDataChangedArgs(this.Id, this.Price));
+        }
+
+        public override int Id
+        {
+            get => base.Id;
+            set
+            {
+                if (base.Id != value)
+                {
+                    base.Id = value;
+                    DataChanged?.Invoke(this, new ProductDataChangedArgs(value, base.Price));
+                }
+            }
+        }
+
+        /// <summary>Перегрузка Price с вызовом события.</summary>
+        public override decimal Price
+        {
+            get => base.Price;
+            set
+            {
+                if (base.Price != value)
+                {
+                    base.Price = value;
+                    DataChanged?.Invoke(this, new ProductDataChangedArgs(base.Id, value));
+                }
+            }
         }
 
         /// <summary>

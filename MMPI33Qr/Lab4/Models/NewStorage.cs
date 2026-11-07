@@ -19,7 +19,6 @@ namespace StorageDelegateLibrary.Models
     public class NewStorage<T> : Storage<T>, IDisposable where T : class, INewProduct
     {
         private Action<IStorage<T>> _idChangedDelegate;
-
         /// <summary>
         /// Единственный закрытый конструктор. Принимает кортеж (размер, ID).
         /// </summary>
@@ -52,49 +51,31 @@ namespace StorageDelegateLibrary.Models
         /// </summary>
         public override T this[int index]
         {
-            get => base[index];
+            get {
+                T oldItem = Peek(index);
+                if (oldItem != null)
+                {
+                    oldItem.DataChanged -= OnProductDataChanged;
+                    _idChangedDelegate -= oldItem.SetProductCode;
+                }
+                return base[index]; 
+            }
             set
             {
                 T oldItem = Peek(index);
-                if (oldItem != null) oldItem.DataChanged -= OnProductDataChanged;
-
+                if (oldItem != null)
+                {
+                    oldItem.DataChanged -= OnProductDataChanged;
+                    _idChangedDelegate -= value.SetProductCode;
+                }
                 base[index] = value;
 
                 if (value != null)
                 {
-                    _idChangedDelegate += IdChangeSubscribe(value);
+                    _idChangedDelegate += value.SetProductCode;
                     value.DataChanged += OnProductDataChanged;
-                   
-                }
+                }       
             }
-        }
-
-        public new void Push(T item)
-        {
-            base.Push(item);
-            if (item != null)
-            {
-                item.DataChanged += OnProductDataChanged;
-                _idChangedDelegate += IdChangeSubscribe(item);
-            }
-        }
-
-        public new void Pop(int index)
-        {
-            if (this[index] != null)
-            { 
-                this[index].DataChanged -= OnProductDataChanged;
-                _idChangedDelegate -= IdChangeSubscribe(this[index]);
-            }
-            base.Pop(index);
-        }
-
-        private Action<IStorage<T>> IdChangeSubscribe(T item)
-        {
-            return (storage) =>
-            {
-                StorageLibrary.Extensions.ProductExtensions.SetProductCode(item, this);
-            };
         }
 
         private void OnProductDataChanged(object sender, ProductDataChangedArgs e)
